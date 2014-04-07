@@ -1,0 +1,96 @@
+/*
+ * RWD Workshop CSS
+ * 
+ ************************************************************************************************/
+
+
+/*
+ * Reset
+ * 
+ ****************************************************************************/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; } 
+
+
+/*
+ * HTML5
+ * 
+ ********************************************************/
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
+
+
+/*
+ * Clearfix Class
+ * 
+ ********************************************************/
+
+.cf { *zoom: 1; }
+.cf:before,
+.cf:after {
+	display: table;
+	content: ""; }
+.cf:after { clear: both; }
+
+
+/*
+ * Color Palette
+ * 
+ ********************************************************/
+
+/*
+#f2a950
+#d96b0b
+#a6370f
+#731010
+#400a0a
+*/
+
+/*
+ * Global Selectors
+ * 
+ ********************************************************/
+
+*,
+*:before,
+*:after { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; }
+
+html { background-color: #d96b0b; }
+
+body {
+	border-top: 10px solid #000;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 1em; }
+
+a {
+	color: #400a0a;
+	text-decoration: none; }
+
+a:hover, a:active {
+	text-decoration: underline; }
+
+body { }
+
+.container-site { padding: 0 20px; }
+
+
+/*
+ * Titles
+ * 
+ ********************************************************/
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6,
+p, ol, ul {
+	margin: 1em 0; line-height: 1.5em; color: #333; }
+
+ol { padding-left: 3em; }
+
+h1, .h1 {
+	text-transform: uppercase; line-height: 1.2em; font-size: 2em; color: #000; }
+
+h2, .h2 {
+	line-height: 1.2em; font-size: 1.5em; color: #333; }
