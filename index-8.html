@@ -41,11 +41,8 @@
 				
 				<!-- site logo -->
 				<div class="logo">
-					<picture data-alt="Site Logo" data-default-src="images/logo-bacon.png">
-					    <source srcset="images/logo-bacon.png, images/logo-bacon@2x.png 2x"/>
-					    <noscript>
-					        <img src="images/logo-bacon.png" alt="Site Logo"/>
-					    </noscript>
+					<picture>
+						<img srcset="images/logo-bacon.png, images/logo-bacon@2x.png 2x" alt="Site Logo">
 					</picture>
 				</div>
 			</header>
@@ -73,11 +70,8 @@
 				</div>
 				
 				<div class="hero-img">
-					<picture data-alt="Push Button... Receive Bacon" data-default-src="images/banner.png">
-					    <source srcset="images/banner.png, images/banner@2x.png 2x"/>
-					    <noscript>
-					        <img src="images/banner.png" alt="Push Button... Receive Bacon"/>
-					    </noscript>
+					<picture>
+						<img srcset="images/banner.png, images/banner@2x.png 2x" alt="Push Button... Receive Bacon">
 					</picture>
 				</div>
 			</div>
@@ -89,13 +83,12 @@
 				<main id="main" role="main">
 					
 					<h2>A Written History of Bacon</h2>
-					<picture data-alt="Bacon Pic" data-default-src="images/placebacon-pf.png">
-					    <source srcset="images/placebacon-pf.png, images/placebacon-pf@2x.png 2x"/>
-					    <source srcset="images/placebacon-pf-tablet.png, images/placebacon-pf-tablet@2x.png 2x" media="(min-width: 768px)"/>
-					    <source srcset="images/placebacon-pf.png, images/placebacon-pf@2x.png 2x" media="(min-width: 960px)"/>
-					    <noscript>
-					        <img src="images/placebacon-pf.png" alt="Bacon Pic"/>
-					    </noscript>
+					<picture>
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						<source srcset="images/placebacon-pf.png, images/placebacon-pf@2x.png 2x" media="(min-width: 960px)"/>
+						<source srcset="images/placebacon-pf-tablet.png, images/placebacon-pf-tablet@2x.png 2x" media="(min-width: 768px)"/>
+						<!--[if IE 9]></video><![endif]-->
+						<img srcset="images/placebacon-pf.png, images/placebacon-pf@2x.png 2x" alt="Bacon Pic">
 					</picture>
 					<p>Bacon ipsum dolor sit amet croissant multigrain wheat scone muffin pita, focaccia banana white naan marble corn roll wholegrain. Toast wholegrain bun roll ciabatta corn biscuit banana wheat brioche rye. Bagel matzo scone multigrain olive soda roll hardtack quick garlic. Soda toast olive baguette potato.</p>
 					<p>Mauris suscipit eleifend nulla, ac porttitor augue viverra eget. Etiam porta auctor consequat. Duis vel neque sodales, adipiscing arcu in, tincidunt ante. Duis tempus ipsum nec nibh eleifend, vel dignissim augue viverra.</p>
@@ -162,7 +155,7 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 		<script>window.jQuery || document.write( '<script src="js/jquery-1.11.0.min.js"><\/script>' )</script>
 		
-		<script type="text/javascript" src="js/picturePolyfill.min.js"></script>
+		<script type="text/javascript" src="js/picturefill-2.3.1.min.js"></script>
 		<script type="text/javascript" src="js/funcs.js"></script>
 	</body>
 </html>
